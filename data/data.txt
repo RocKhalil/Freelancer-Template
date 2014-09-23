@@ -1,0 +1,234 @@
+{
+    "SiteConfigurations": [{
+        "key": "sitetitle",
+        "display": "Site Title",
+        "value": "Freelancer - Start Bootstrap Theme"
+    }, {
+        "key": "sitename",
+        "display": "Site Name",
+        "value": "Start Bootstrap"
+    }, {
+        "key": "sitedescription",
+        "display": "Site Description",
+        "value": "Web Developer - Graphic Artist - User Experience Designer"
+    }, {
+        "key": "siteicon",
+        "display": "Site Icon",
+        "value": "images/sb_favicon.ico"
+    }, {
+        "key": "siteimage",
+        "display": "Site Image",
+        "value": "Images/profile.png"
+    }],
+    "OpenGraph": [{
+        "key": "ogurl",
+        "display": "URL",
+        "value": "http://startbootstrap.com/templates/freelancer/"
+    }, {
+        "key": "ogsitename",
+        "display": "Site Name",
+        "value": "Freelancer - Start Bootstrap Theme"
+    }, {
+        "key": "ogtitle",
+        "display": "Title",
+        "value": "Freelancer - Start Bootstrap Theme"
+    }, {
+        "key": "ogimage",
+        "display": "Image",
+        "value": "http://startbootstrap.com/templates/freelancer/img/profile.png"
+    }, {
+        "key": "ogdescription",
+        "display": "Description",
+        "value": "Open Graph Description"
+    }, {
+        "key": "fbadmins",
+        "display": "FB Admin",
+        "value": "Facebook Admin"
+    }],
+    "Portfolio": [
+		{
+			"id": "1",
+			"image": "Images/Portfolio/cabin.png",
+			"title": "PROJECT TITLE",
+			"description": "<p>Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>",
+			"sitelink": "#",
+			"client": "Start Bootstrap",
+			"date": "August 2014",
+			"service": "Web Development"
+		},
+		{
+			"id": "2",
+			"image": "Images/Portfolio/cake.png",
+			"title": "PROJECT TITLE",
+			"description": "<p>Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>",
+			"sitelink": "#",
+			"client": "Start Bootstrap",
+			"date": "August 2014",
+			"service": "Web Development"
+		},
+		{
+			"id": "3",
+			"image": "Images/Portfolio/circus.png",
+			"title": "PROJECT TITLE",
+			"description": "<p>Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>",
+			"sitelink": "#",
+			"client": "Start Bootstrap",
+			"date": "August 2014",
+			"service": "Web Development"
+		},
+		{
+			"id": "4",
+			"image": "Images/Portfolio/game.png",
+			"title": "PROJECT TITLE",
+			"description": "<p>Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>",
+			"sitelink": "#",
+			"client": "Start Bootstrap",
+			"date": "August 2014",
+			"service": "Web Development"
+		},
+		{
+			"id": "5",
+			"image": "Images/Portfolio/safe.png",
+			"title": "PROJECT TITLE",
+			"description": "<p>Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>",
+			"sitelink": "#",
+			"client": "Start Bootstrap",
+			"date": "August 2014",
+			"service": "Web Development"
+		},
+		{
+			"id": "6",
+			"image": "Images/Portfolio/submarine.png",
+			"title": "PROJECT TITLE",
+			"description": "<p>Use this area of the page to describe your project. The icon above is part of a free icon set by Flat Icons. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>",
+			"sitelink": "#",
+			"client": "Start Bootstrap",
+			"date": "August 2014",
+			"service": "Web Development"
+		}
+	],
+    "About": [{
+        "id": "1",
+        "cols": "6",
+        "content": "<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>"
+    }, {
+        "id": "2",
+        "cols": "6",
+        "content": "<p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>"
+    }],
+    "Footer": [{
+        "col1": "<h3>Location</h3><p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>",
+        "col2": "<h3>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>"
+    }],
+    "Social": [{
+        "key": "social1",
+        "display": "Android",
+        "link": "",
+        "class": "android"
+    }, {
+        "key": "social2",
+        "display": "Apple",
+        "link": "",
+        "class": "apple"
+    }, {
+        "key": "social3",
+        "display": "Behance",
+        "link": "",
+        "class": "behance"
+    }, {
+        "key": "social4",
+        "display": "Bitcoin",
+        "link": "",
+        "class": "bitcoin"
+    }, {
+        "key": "social5",
+        "display": "Dribbble",
+        "link": "",
+        "class": "dribbble"
+    }, {
+        "key": "social6",
+        "display": "Dropbox",
+        "link": "",
+        "class": "dropbox"
+    }, {
+        "key": "social7",
+        "display": "Facebook",
+        "link": "#",
+        "class": "facebook"
+    }, {
+        "key": "social8",
+        "display": "Flickr",
+        "link": "",
+        "class": "flickr"
+    }, {
+        "key": "social9",
+        "display": "Github",
+        "link": "#",
+        "class": "github"
+    }, {
+        "key": "social10",
+        "display": "Google+",
+        "link": "#",
+        "class": "google-plus"
+    }, {
+        "key": "social11",
+        "display": "Instagram",
+        "link": "#",
+        "class": "instagram"
+    }, {
+        "key": "social12",
+        "display": "Linkedin",
+        "link": "#",
+        "class": "linkedin"
+    }, {
+        "key": "social13",
+        "display": "Paypal",
+        "link": "",
+        "class": "paypal"
+    }, {
+        "key": "social14",
+        "display": "Pinterest",
+        "link": "",
+        "class": "pinterest"
+    }, {
+        "key": "social15",
+        "display": "Rebel",
+        "link": "",
+        "class": "rebel"
+    }, {
+        "key": "social16",
+        "display": "Stack Overflow",
+        "link": "",
+        "class": "stack-overflow"
+    }, {
+        "key": "social17",
+        "display": "Tubmlr",
+        "link": "",
+        "class": "tubmlr"
+    }, {
+        "key": "social18",
+        "display": "Twitter",
+        "link": "#",
+        "class": "twitter"
+    }, {
+        "key": "social19",
+        "display": "Vine",
+        "link": "",
+        "class": "vine"
+    }, {
+        "key": "social20",
+        "display": "Vk",
+        "link": "",
+        "class": "vk"
+    }, {
+        "key": "social21",
+        "display": "Yahoo",
+        "link": "",
+        "class": "yahoo"
+    }, {
+        "key": "social22",
+        "display": "Youtube",
+        "link": "",
+        "class": "youtube"
+    }]
+}
