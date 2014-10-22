@@ -34,6 +34,10 @@ public partial class _Default : System.Web.UI.Page
         TempStr = Util.GetTemplate("Head");
         TempStr = TempStr.Replace("$sitetitle$", GetValue("SiteConfigurations", "sitetitle", obj));
         TempStr = TempStr.Replace("$siteicon$", GetValue("SiteConfigurations", "siteicon", obj));
+
+        TempStr = TempStr.Replace("$metadescription$", GetValue("SiteConfigurations", "metadescription", obj));
+        TempStr = TempStr.Replace("$metakeywords$", GetValue("SiteConfigurations", "metakeywords", obj));
+        TempStr = TempStr.Replace("$metaauthor$", GetValue("SiteConfigurations", "metaauthor", obj));
         
         TempStr = TempStr.Replace("$ogurl$", GetValue("OpenGraph","ogurl",obj));
         TempStr = TempStr.Replace("$ogsitename$", GetValue("OpenGraph","ogsitename",obj));
@@ -62,7 +66,7 @@ public partial class _Default : System.Web.UI.Page
         foreach (dynamic obj2 in obj["Portfolio"])
         {
             Values = RenderPortfolioItem(obj2);
-            PortfolioItems += Values[0];
+            PortfolioItems = Values[0] + PortfolioItems; //we put it the first one since when we add a new item it will be the newest one
             PortfolioModals += Values[1];
         }
         TempStr = TempStr.Replace("$portfolioitems$", PortfolioItems);

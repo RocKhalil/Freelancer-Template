@@ -11,6 +11,18 @@
         "key": "sitedescription",
         "display": "Site Description",
         "value": "Web Developer - Graphic Artist - User Experience Designer"
+    },{
+        "key": "metadescription",
+        "display": "Meta Description",
+        "value": "Freelancer - Start Bootstrap Theme"
+    },{
+        "key": "metakeywords",
+        "display": "Meta Keywords",
+        "value": "Freelancer - Start Bootstrap Theme"
+    }, {
+        "key": "metaauthor",
+        "display": "Meta Author",
+        "value": "Freelancer - Start Bootstrap Theme"
     }, {
         "key": "siteicon",
         "display": "Site Icon",
